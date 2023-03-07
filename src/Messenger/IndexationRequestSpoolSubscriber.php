@@ -84,6 +84,9 @@ class IndexationRequestSpoolSubscriber implements EventSubscriberInterface, Rese
         ];
     }
 
+    /**
+     * @return void
+     */
     public function reset()
     {
         $this->wasExceptionThrown = false;
